@@ -1,0 +1,83 @@
+.todo-header {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: start;
+  margin: 0 0 20px 20px;
+}
+
+.tasks-header {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: start;
+  margin: 0 0 20px 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-input {
+  width: calc(100% - 40px);
+  height: 43px;
+  margin: auto;
+  border-radius: 4px;
+  font-size: 19px;
+  padding-left: 12px;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+.add-task-btn {
+  color: #ffffff;
+  background-color: #3b82f6;
+  font-weight: 600;
+  font-size: 20px;
+  width: 160px;
+  padding: 7px;
+  line-height: 24px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.task-item {
+  border: 2px solid white;
+  text-align: start;
+  width: 100%;
+  margin: 6px auto;
+  line-height: 43px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 2px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-text {
+  margin: 0;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-btn i {
+  font-size: 1.5em;
+  margin-left: 5px;
+  color: white;
+}
+
+.edit-btn {
+  display: inline-flex;
+  align-items: center;
+}
