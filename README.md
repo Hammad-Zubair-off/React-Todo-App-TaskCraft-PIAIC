@@ -12,6 +12,9 @@ TaskCraft is a simple and intuitive to-do list application built with React and 
 - **Real-Time Updates**: Your task list updates in real-time as you add, delete, or modify tasks.
 - **Responsive Design**: Works well on both desktop and mobile devices.
 
+![Todo List](https://github.com/Hammad-Zubair-off/React-Todo-App-TaskCraft-PIAIC/blob/main/Todo%20List%20.jpg)
+
+
 ## Installation
 
 1. Clone the repository:
